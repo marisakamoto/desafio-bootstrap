@@ -1,0 +1,90 @@
+*{
+    box-sizing: 0;
+}
+body { 
+    padding-top: 50px; 
+    font-family:  sans-serif;
+}
+
+.navbar{
+
+    background-color: #2D3E50;
+    color: white;
+    text-decoration: none;
+}
+
+.linha{
+    text-decoration: line-through;
+    color: white;
+    
+}
+#start .container, #About .container{
+    background-color: #5CBD9C;
+    color: white;
+}
+#Portfolio{
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#Portfolio .linha,#Contact .linha{
+    text-decoration: line-through;
+    color: black;
+}
+#About p{
+    text-align: left;
+    margin-left: 15%;
+}
+.btn{
+    background-color: #5CBD9C;
+    color: white;
+   
+}
+footer{
+    background-color: #2D3E50;
+    color: white;
+    font-size: .8em ;
+}
+footer h4{
+    background-color: #2D3E50;
+    color: white;
+    font-size: 1em ;
+}
+.list-group-item{
+    background: none;
+    color: white;
+}
+ul li{
+    text-decoration: none;
+    background: none;
+}
+li img{
+    width: 40px;
+    padding: 3px;
+    margin: 3px;
+    border:2px solid black;
+}
+
+#copyright{
+    background-color: #1B252F;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
